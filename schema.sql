@@ -15,7 +15,6 @@ CREATE TABLE IF NOT EXISTS produtos (
     link             VARCHAR(500)  NOT NULL,
     precoAntigo      DECIMAL(10,2) NULL,
     valor            DECIMAL(10,2) NULL,
-    valorPromocional DECIMAL(10,2) NULL,
     precoClube       DECIMAL(10,2) NULL,
     categoria        VARCHAR(100)  NOT NULL,
     -- Evita gravar o mesmo produto duas vezes na mesma extração
